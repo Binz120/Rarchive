@@ -1,2 +1,2 @@
-praw>=7.7.0   # Main Reddit API wrapper
-python-dotenv>=1.0.0  # For loading .env files
+praw>=7.7.0
+python-dotenv>=1.0.0
