@@ -1,0 +1,13 @@
+[MAIN]
+# CI treats any message as a failure; the score is informational.
+fail-under=9.5
+
+[MESSAGES CONTROL]
+# A twelve-field dataclass is the natural shape of a Reddit post, and the
+# two-method service classes are deliberate splits, not missed abstractions.
+disable=
+    too-many-instance-attributes,
+    too-few-public-methods
+
+[FORMAT]
+max-line-length=100
